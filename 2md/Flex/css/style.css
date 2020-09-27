@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: #3B3430;
+  text-decoration: none;
+}
+
+nav a:hover, a:focus{
+  color: #7e7d85;
+}
+
+nav ul{
+  display: flex;
+  background-color: #D8CBCC;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+  list-style-type: none;
+}
+
+nav h1{
+  color:#3B3430;
+  font-family: 'Parisienne', cursive;
+  font-size: 45px;
+}
+
+.voyage{
+  min-height: 90vh;
+  background-image: url('../img/boat.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #D8CBCC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.voyage h2{
+  text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-shadow: 2px 2px #3B3430;
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+.btn{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-shadow: 0.5px 0.5px #3B3430;
+  background-color:#D8CBCC;
+  color: #3B3430;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover{
+ background-color: #8E8D96;
+} 
+
+.intro{
+  display: flex;
+}
+
+.intro img{
+  width: 100%;
+}
+ .intro-img{
+   flex: 1 1 20rem;
+   background: #D8CBCC;
+ }
+
+.intro-text{
+  display: flex;
+  flex: 1 1 20rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #3B3430;
+  background-color:#D8CBCC;  
+}
+
+.intro-text h2{
+  padding: 30px;
+  text-align: center;
+}
+
+.intro-text p{
+  padding: 15px;
+  text-align: center;
+}
+
+.footer{
+  height: 300px;
+  background-image: url('../img/pexels-alex-pham-950210.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  background-color: #3B3430;
+  padding: 25px;
+  font-family: 'Righteous', cursive;  
+  color: #D8CBCC;
+}
+ .subscription-title{
+   font-family: 'Righteous', cursive; 
+   font-size: 20px;
+   text-align: center;
+   padding-bottom: 20px;
+   color: #D8CBCC;
+   font-weight: 400;
+ }
+
+ .user-input{
+  font-family: 'PT Sans Caption', sans-serif;; 
+  font-weight: lighter;
+ }
+
+ .btn2{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 10px;
+  text-shadow: 0.5px 0.5px #3B3430;
+  background-color:#D8CBCC;
+  color: #3B3430;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+ }
